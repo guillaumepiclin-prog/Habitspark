@@ -187,7 +187,7 @@ Génère entre 4 et 5 habitudes. Sois concret, chaleureux, jamais générique.`;
 "anthropic-version": "2023-06-01",
 "anthropic-dangerous-direct-browser-access": "true"},
         body: JSON.stringify({
-          model: "claude-sonnet-4-20250514",
+          model: "claude-3-5-sonnet-20241022",
           max_tokens: 1000,
           messages: [{ role: "user", content: prompt }],
         }),
